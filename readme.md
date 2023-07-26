@@ -4,7 +4,7 @@ The script's main function is to add edition filters to audio files, making them
 
 Wou only need put the audios files in the same folder as the script and and run it.
 
-## Filters Applied: The script applies the following filters to the audio files:
+## The script applies the following filters to the audio files:
 
 + Noise Reduction: Reduces or removes background noise from the audio.
 + Hardlimiter: Limits the amplitude of the audio to avoid clipping or distortion.
