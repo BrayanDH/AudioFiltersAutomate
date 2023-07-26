@@ -1,19 +1,17 @@
-**Audacity similar filters auto apply script(FFMPEg)**
+# Audio filters automate
 
-This script auto add edition filters to your audio files.
-
-The effects it applies are similar  to audacity filters .
+The script's main function is to add edition filters to audio files, making them sound better or more polished. These filters are similar to the ones available in the audio editing software, Audacity.
 
 Wou only need put the audios files in the same folder as the script and and run it.
 
-Which effects apply
+## Filters Applied: The script applies the following filters to the audio files:
 
-- **Noise reduction.**
-- **Hardlimiter.**
-- **Equalizer.**
-- **Compression with auto normalizer lvs.**
++ Noise Reduction: Reduces or removes background noise from the audio.
++ Hardlimiter: Limits the amplitude of the audio to avoid clipping or distortion.
++ Equalizer: Adjusts the frequency response of the audio to enhance or reduce specific frequencies.
++ Compression with Auto Normalizer LVS: Applies dynamic range compression to even out audio levels, and the auto normalizer brings the overall loudness to a desired level.
 
-additionally, if you want to use the silence script for remove all silences spaces in your audios files
+Silence Removal (Optional): Additionally, users have the option to use the silence script, which removes all silent spaces or pauses from the audio files. This can be helpful for creating a more seamless and continuous audio experience.
 
-You need to install FFMPEG to run this script, I recommend installing it by chocolatey
+FFMPEG Dependency: The script relies on FFMPEG to perform the audio processing tasks. Users need to install FFMPEG to run the script successfully. The description suggests using "chocolatey" as a package manager to install FFMPEG.
 **https://community.chocolatey.org/packages/ffmpeg**
