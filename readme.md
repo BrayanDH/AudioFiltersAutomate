@@ -1,17 +1,31 @@
-# Audio filters automate
+# Audio Filters Automate
 
-The script's main function is to add edition filters to audio files, making them sound better or more polished. These filters are similar to the ones available in the audio editing software, Audacity.
+## Description
 
-Wou only need put the audios files in the same folder as the script and and run it.
+Audio Filters Automate is a powerful script designed to enhance and polish audio files by applying professional-grade filters. These filters are similar to the ones found in popular audio editing software like Audacity, allowing you to improve the quality and clarity of your audio recordings.
 
-## The script applies the following filters to the audio files:
+## How to Use
 
-+ Noise Reduction: Reduces or removes background noise from the audio.
-+ Hardlimiter: Limits the amplitude of the audio to avoid clipping or distortion.
-+ Equalizer: Adjusts the frequency response of the audio to enhance or reduce specific frequencies.
-+ Compression with Auto Normalizer LVS: Applies dynamic range compression to even out audio levels, and the auto normalizer brings the overall loudness to a desired level.
+1. Prepare Your Audio Files:
+   Place the audio files you want to process in the same folder as the script. Ensure your audio files are in a compatible format, such as MP3 or WAV.
 
-Silence Removal (Optional): Additionally, users have the option to use the silence script, which removes all silent spaces or pauses from the audio files. This can be helpful for creating a more seamless and continuous audio experience.
+2. Run the Script:
+   Simply run the script, and it will automatically apply the following filters to your audio files:
 
-FFMPEG Dependency: The script relies on FFMPEG to perform the audio processing tasks. Users need to install FFMPEG to run the script successfully. The description suggests using "chocolatey" as a package manager to install FFMPEG.
-**https://community.chocolatey.org/packages/ffmpeg**
+   - Noise Reduction: Reduce or remove background noise from the audio, resulting in cleaner sound.
+   - Hardlimiter: Limit the amplitude of the audio to prevent clipping or distortion, ensuring a smooth listening experience.
+   - Equalizer: Adjust the frequency response of the audio to enhance or reduce specific frequencies, improving the overall audio balance.
+   - Compression with Auto Normalizer LVS: Apply dynamic range compression to even out audio levels, and the auto normalizer brings the overall loudness to a desired level.
+
+3. Optional: Silence Removal
+   If desired, you can use the optional silence removal feature. This script will automatically remove silent spaces or pauses from the audio files, creating a seamless and uninterrupted audio playback.
+
+## FFMPEG Dependency
+
+The script relies on FFMPEG, a powerful multimedia framework, to perform the audio processing tasks. Before running the script, make sure you have FFMPEG installed on your system.
+
+Follow the link below to install FFMPEG using "chocolatey" as a package manager:
+
+[Install FFMPEG with Chocolatey](https://community.chocolatey.org/packages/ffmpeg)
+
+Enjoy enhancing your audio files with Audio Filters Automate!
